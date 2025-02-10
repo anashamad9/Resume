@@ -154,7 +154,7 @@ export default function Portfolio() {
                     href: "https://huggingface.co/anashamad",
                   },
                   {
-                    icon: <Image src="/resume/images/image (4).png" alt="Kaggle" width={20} height={20} />,
+                    icon: <Image src="./resume/images/image (4).png" alt="Kaggle" width={20} height={20} />,
                     label: "Kaggle",
                     href: "https://www.kaggle.com/anasbassam",
                   },
