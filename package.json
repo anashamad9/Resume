@@ -1,0 +1,23 @@
+{
+  "name": "my-next-app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://anashamad9/github.io/resume",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "deploy": "npm run build && npm run export && gh-pages -d out"
+  },
+  "dependencies": {
+    "next": "13.4.19",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "10",
+    "postcss": "8",
+    "tailwindcss": "3"
+  }
+}
+
