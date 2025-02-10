@@ -154,7 +154,7 @@ export default function Portfolio() {
                     href: "https://huggingface.co/anashamad",
                   },
                   {
-                    icon: <Image src="/images/image (4).png" alt="Kaggle" width={20} height={20} />,
+                    icon: <Image src="/resume/images/image (4).png" alt="Kaggle" width={20} height={20} />,
                     label: "Kaggle",
                     href: "https://www.kaggle.com/anasbassam",
                   },
@@ -310,7 +310,7 @@ export default function Portfolio() {
                     {[
                       {
                         name: "Python",
-                        logo: "/images/embedded-python-training-300x300.jpg",
+                        logo: "/resume/images/embedded-python-training-300x300.jpg",
                         url: "https://www.python.org/",
                       },
                       {
@@ -348,7 +348,7 @@ export default function Portfolio() {
                       },
                       {
                         name: "Pandas",
-                        logo: "/images/pandas-logo-776F6D45BB-seeklogo.com.png",
+                        logo: "/resume/images/pandas-logo-776F6D45BB-seeklogo.com.png",
                         url: "https://pandas.pydata.org/",
                       },
                     ].map((tool) => (
@@ -441,7 +441,7 @@ export default function Portfolio() {
                       },
                       {
                         name: "Hugging Face",
-                        logo: "/images/hugging-face-icon-logo-png_seeklogo-515010.png",
+                        logo: "/resume/images/hugging-face-icon-logo-png_seeklogo-515010.png",
                         url: "https://huggingface.co/",
                       },
 
@@ -498,14 +498,14 @@ export default function Portfolio() {
                     name: "Onqoud - AI Product",
                     description:
                       "Developed a BI product with features like future forecasting and insight for restaurants.",
-                    image: "/images/onqoud.png",
+                    image: "/resume/images/onqoud.png",
                     link: "https://onqoud.com/",
                   },
                   {
                     name: "CiTrain",
                     description:
                       "CiTrain is a seb app where you can choose any type of ML model, uploade your data and get the output directly",
-                    image: "/public/images/image (3).png",
+                    image: "/resume/images/image (3).png",
                     link: "https://github.com/anashamad9",
                   },
                   {
