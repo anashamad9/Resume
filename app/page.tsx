@@ -505,7 +505,7 @@ export default function Portfolio() {
                     name: "CiTrain",
                     description:
                       "CiTrain is a seb app where you can choose any type of ML model, uploade your data and get the output directly",
-                    image: "/images/image (3).png",
+                    image: "/public/images/image (3).png",
                     link: "https://github.com/anashamad9",
                   },
                   {
