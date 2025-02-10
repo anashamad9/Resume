@@ -49,41 +49,10 @@ const nextConfig = {
   compress: true,
   optimizeFonts: true,
   
-  // Webpack optimization
-  webpack: (config, { dev, isServer }) => {
-    // Add custom webpack optimizations here if needed
-    if (!dev && !isServer) {
-      Object.assign(config.resolve.alias, {
-        'react/jsx-runtime.js': 'preact/compat/jsx-runtime',
-        react: 'preact/compat',
-        'react-dom/test-utils': 'preact/test-utils',
-        'react-dom': 'preact/compat',
-      });
-    }
-    return config;
-  },
-
   // Environment configuration
   env: {
     NEXT_PUBLIC_BASE_URL: process.env.NEXT_PUBLIC_BASE_URL || '',
-  },
-
-  // Security headers
-  headers: async () => [
-    {
-      source: '/:path*',
-      headers: [
-        {
-          key: 'X-DNS-Prefetch-Control',
-          value: 'on'
-        },
-        {
-          key: 'X-XSS-Protection',
-          value: '1; mode=block'
-        }
-      ],
-    },
-  ],
+  }
 }
 
 module.exports = nextConfig
